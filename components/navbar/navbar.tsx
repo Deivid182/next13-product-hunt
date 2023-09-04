@@ -58,9 +58,15 @@ const Navbar = () => {
             </div>
             <div className='max-lg:flex hidden items-center gap-x-4 text-slate-gray'>
               <AiOutlineMenu className='w-7 h-7' />
-              <BiSearch className='w-7 h-7' />
+              <div className='max-md:hidden flex'>
+                <BiSearch className='w-7 h-7' />
+              </div>
+              <div className='max-md:flex hidden'>
+                <Logo />
+              </div>
+              
             </div>
-            <div className='max-lg:flex hidden'>
+            <div className='md:flex hidden'>
               <Logo />
             </div>
             {/* profile and options */}
