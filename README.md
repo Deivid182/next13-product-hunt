@@ -1,4 +1,4 @@
-# User Stories for techNotes
+# User Stories for Product Hunt Clone
 
 1. [ ] I can create my account
 2. [ ] I can login
